@@ -1,6 +1,6 @@
 # WikiDIR
 
-A significant amount of local knowledge and culture-specific knowledge can only be found in documents written in dialects, yet cross-dialect retrieval (CDIR) has not been extensively studied. In this work, we propose WikiDIR, a retrieval dataset for German dialects. The dataset is described in detail in our paper [Cross-Dialect Information Retrieval: Information Access in Low-Resource and High-Variance Languages](https://arxiv.org/abs/2412.12806) by Robert Litschko, Oliver Kraus, Verena Blaschke and Barbara Plank.  
+A significant amount of local knowledge and culture-specific knowledge can only be found in documents written in dialects, yet cross-dialect information retrieval (CDIR) has not been extensively studied. In this work, we propose WikiDIR, a retrieval dataset for German dialects. The dataset is described in detail in our paper [Cross-Dialect Information Retrieval: Information Access in Low-Resource and High-Variance Languages](https://arxiv.org/abs/2412.12806) by Robert Litschko, Oliver Kraus, Verena Blaschke and Barbara Plank.  
 
 
 ## Dataset
