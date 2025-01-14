@@ -1,5 +1,9 @@
 # WikiDIR
 
+A significant amount of local knowledge and culture-specific knowledge can only be found in documents written in dialects, yet cross-dialect retrieval (CDIR) has not been extensively studied. In this work, we propose WikiDIR, a retrieval dataset for German dialects. The dataset is described in detail in our paper [Cross-Dialect Information Retrieval: Information Access in Low-Resource and High-Variance Languages](https://arxiv.org/abs/2412.12806) by Robert Litschko, Oliver Kraus, Verena Blaschke and Barbara Plank.  
+
+
+## Dataset
 We make the [WikiDIR dataset](https://huggingface.co/datasets/rlitschk/wikidir/) available on huggingface 🤗. Each folder (e.g. `de.bar/`) contains German queries, documents written in dialects and relevance labels. Query and document ID's correspond to Wikipedia CurID's, you can use them browse to the Wikipedia article from they were extracted:
 - https://de.wikipedia.org/?curid=3215
 - https://bar.wikipedia.org/?curid=12259
@@ -28,7 +32,7 @@ Relevance labels: `{train, dev, test, analysis, analysis_variants}.jsonl`
 ```
 
 
-# Dialect variation dictionaries
+## Dialect variation dictionaries
 You can find our [dialect dictionaries](https://huggingface.co/datasets/rlitschk/wikidir/tree/main/dictionaries) on huggingface 🤗.
 ```python
 {
